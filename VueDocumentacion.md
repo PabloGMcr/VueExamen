@@ -17,19 +17,19 @@ npm install -g @vue/cli
 
 ## Ejercicio 1: Ruteo
 
-1. Intalar libreria de rutas en proyecto
+1. Instalar libreria de rutas en proyecto 
 
 ~~~
-npm i vue-router
+npm i vue-router  
 ~~~
 
 2. En src crear carpeta router.
 
 3. Crear y configurar un archivo index.js.
 
-4. Crear un archivo index.js.
+* Crear un archivo index.js.
 
-5. Configura archivo index.js para que resiva las rutas
+* Configura archivo index.js para que resiva las rutas
 que estaban en el main.js.
  
 ~~~js
@@ -140,7 +140,44 @@ data() {
 
 ## Estilos y cambios generales del ejercicio 😀
 
-1. Margenes y centrados en todos los conponetes 
-2. Tabla con columna nombre y sombreado
-3. Se agrega Footer 
-4. Se cambia color de barra de navegacion
+1. Uso de bootstrap. 
+
+2. Margenes y centrados en todos los componetes 
+
+3. Tabla con columna nombre y sombreado
+~~~css
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.thead {
+  background: #0a3143;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin-top: 2%;
+  padding: 0;
+}
+.table {
+  padding: 0;
+  margin: 0;
+}
+.FormC{
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 17%;
+}
+~~~
+
+4. Se agrega Footer 
+
+5. Se cambia color de barra de navegacion
